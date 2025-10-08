@@ -43,13 +43,16 @@ html {
 }
 
 .title-wrapper {
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
-  background: #fff;
+  border: 1px solid transparent;
   border-radius: 19px;
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(180deg, #376ffe 0%, #26fff4 100%) border-box;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
   padding: 8px 16px;
   max-width: max-content;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 16px;
 
   @include media(desktop) {
   }

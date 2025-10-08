@@ -1,8 +1,10 @@
 .cases-section {
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 
   @include media(desktop) {
-    padding-bottom: 112px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 
@@ -25,60 +27,73 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12px;
+  gap: 16px;
 
   @include media(desktop) {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    gap: 32px;
   }
 }
 
 .cases-list-item {
-  background: #fff;
-  border: 1px solid #2563eb;
-  border-radius: 16px;
-  padding: 15px;
+  background: #10141d;
+  border-radius: 8px;
+  padding: 24px 32px;
   width: 100%;
   max-width: 343px;
-  min-height: 91px;
+  min-height: 180px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
+  justify-content: space-between;
+  align-items: start;
+  gap: 16px;
 
   @include media(desktop) {
-    padding: 23px;
-    gap: 16px;
-    max-width: 306px;
-    min-height: 148px;
+    max-width: 544px;
+    min-height: 240px;
+  }
+}
+
+.cases-item-text-wrapper {
+  max-width: 167px;
+
+  @include media(desktop) {
+    max-width: 304px;
   }
 }
 
 .cases-list-item-title {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.5;
-  text-align: center;
-  color: #1f2937;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #fff;
+  margin-bottom: 8px;
 
   @include media(desktop) {
-    font-size: 24px;
+    font-size: 28px;
   }
 }
 
 .cases-list-item-text {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
-  text-align: center;
-  color: #1f2937;
+  color: #fff;
 
   @include media(desktop) {
-    font-size: 16px;
+    font-size: 18px;
+  }
+}
+
+.cases-icon {
+  min-width: 96px;
+
+  @include media(desktop) {
+    min-width: 160px;
+    width: 160px;
+    height: 160px;
   }
 }
