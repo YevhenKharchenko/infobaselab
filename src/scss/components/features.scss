@@ -20,6 +20,9 @@
 
 .features-subtitle {
   @include media(desktop) {
+    max-width: 402px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
