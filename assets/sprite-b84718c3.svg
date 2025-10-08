@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-appsales" viewBox="0 0 32 32">
+      <path fill="none" stroke="#26fff4" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5" d="M9.319 13.688a5.011 5.011 0 1 0 0-10.022 5.011 5.011 0 0 0 0 10.022zM22.681 28.333a5.011 5.011 0 1 0 0-10.022 5.011 5.011 0 0 0 0 10.022zM7.315 28.333 24.684 3.666" style="stroke:var(--color1, #26fff4)"/>
+    </symbol>
+    <symbol id="icon-breeze" viewBox="0 0 32 32">
+      <path fill="none" stroke="#26fff4" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5" d="M15.667 3.667a7.667 7.667 0 0 1 0 15.334h-7a4.667 4.667 0 0 0 0 9.334h11.667a7.667 7.667 0 0 0 0-15.334H8.667a4.667 4.667 0 0 1 0-9.334h7z" style="stroke:var(--color1, #26fff4)"/>
+    </symbol>
+    <symbol id="icon-check" viewBox="0 0 32 32">
+      <path fill="none" stroke="#376ffe" stroke-linecap="round" stroke-linejoin="round" d="m9.334 12.747 5.539 5.444 7.795-7.709" style="stroke:var(--color2, #376ffe)"/>
+      <path fill="none" stroke="#376ffe" stroke-linecap="round" stroke-linejoin="round" d="M26.135 26.135c-5.597 5.597-14.673 5.597-20.271 0s-5.597-14.673 0-20.271c5.597-5.597 14.673-5.597 20.271 0" style="stroke:var(--color2, #376ffe)"/>
+    </symbol>
+    <symbol id="icon-finance" viewBox="0 0 32 32">
+      <path fill="none" stroke="#26fff4" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5" d="M3.667 21.969c2.773 2.974 6.639 2.531 8.928 2.461m-8.928-6.181c2.523 2.88 5.87 3.108 9.043 2.747m-.325-9.36c-10.101-2.119-11.348 7.023 0 5.969m1.878 6.596c2.635 2.733 11.531 3.347 14.071-.287m-14.071-3.891c1.974 3.633 11.145 3.584 14.071.287m-14.071-3.863c4.12 4.319 11.667 2.841 14.071 0" style="stroke:var(--color1, #26fff4)"/>
+      <path fill="none" stroke="#26fff4" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5" d="M14.263 12.869c2.597 3.577 11.147 3.681 14.071.057M21.31 12.152c3.635 0 6.581-1.477 6.581-3.299s-2.947-3.299-6.581-3.299c-3.635 0-6.581 1.477-6.581 3.299s2.947 3.299 6.581 3.299z" style="stroke:var(--color1, #26fff4)"/>
+    </symbol>
+    <symbol id="icon-healthcare" viewBox="0 0 32 32">
+      <path fill="none" stroke="#26fff4" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5" d="M12.147 23.49 16 27.067l6.737-6.253m1.752-1.627.709-.658c1.685-1.563 3.136-3.564 3.136-6.099 0-4.14-3.354-7.496-7.355-7.496-1.899 0-3.652.756-4.979 1.993-1.327-1.237-3.08-1.993-4.979-1.993C7.02 4.933 3.666 8.29 3.666 12.43c0 2.535 1.453 4.533 3.136 6.099l3.592 3.335" style="stroke:var(--color1, #26fff4)"/>
+    </symbol>
+    <symbol id="icon-menu" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-width="1.454" d="M24.727 21.818H7.272M24.727 16H7.272M24.727 10.182H7.272"/>
+    </symbol>
+    <symbol id="icon-close" viewBox="0 0 32 32">
+      <path d="M21.421 11.993a.992.992 0 0 0 .305-.71 1.005 1.005 0 0 0-.62-.935 1.01 1.01 0 0 0-.773.006.996.996 0 0 0-.325.224L16 14.585l-4.007-4.007a1.013 1.013 0 0 0-.714-.318.993.993 0 0 0-.725.293.992.992 0 0 0-.293.725 1.001 1.001 0 0 0 .318.714L14.583 16l-4.007 4.007a.996.996 0 0 0 .025 1.388 1.002 1.002 0 0 0 1.388.025l4.009-4.007 4.007 4.008a.996.996 0 0 0 1.388-.025 1.002 1.002 0 0 0 .025-1.388L17.414 16l4.005-4.007z"/>
+    </symbol>
+  </defs>
+</svg>
