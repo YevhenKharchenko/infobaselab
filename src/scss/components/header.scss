@@ -1,16 +1,14 @@
 .header {
-  backdrop-filter: blur(30px);
-  background: #2c2c2c;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 10;
 
   @include media(desktop) {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 6px;
+    padding-bottom: 6px;
   }
 }
 
@@ -18,18 +16,23 @@
 }
 
 .nav {
+  backdrop-filter: blur(16px);
+  background: rgba(38, 255, 244, 0.5);
+  border-radius: 8px;
+  padding: 10px 8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 
   @include media(desktop) {
+    padding: 4px 32px 4px 8px;
   }
 }
 
 .header-logo-link {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 8px;
 
   @include media(desktop) {
     gap: 12px;
@@ -37,14 +40,13 @@
 }
 
 .header-span {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
   line-height: 1.5;
-  color: #f9f9f9;
+  color: #10141d;
 
   @include media(desktop) {
-    font-size: 32px;
   }
 }
 
@@ -54,20 +56,27 @@
   @include media(desktop) {
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 26px;
   }
 }
 
 .nav-list-link {
+  padding: 2px 8px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 1.4;
-  color: #f9f9f9;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #10141d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: all 0.3s ease-in-out;
 
   &:hover,
-  &.active {
+  &:focus,
+  &:active {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
   }
 }
 
@@ -85,6 +94,7 @@
 }
 
 .menu-icon {
+  stroke: #10141d;
 }
 
 .close-icon {

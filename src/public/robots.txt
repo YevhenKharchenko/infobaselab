@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://cloudhubon.space/sitemap.xml
+Sitemap: https://infobaselab.space/sitemap.xml

@@ -1,74 +1,81 @@
 .hero-section {
-  padding-top: 132px;
-  padding-bottom: 80px;
-  background-image: url(../img/hero/hero-bg-mob.png);
-  background-repeat: no-repeat;
-  background-position: top 187px center;
-  background-size: auto;
-  max-width: 375px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 88px;
 
   @include media(desktop) {
-    padding-top: 208px;
-    padding-bottom: 184px;
-    background-image: url(../img/hero/hero-bg-desk.png);
-    background-position: top 219px right 72px;
-    max-width: 1440px;
+    padding-top: 60px;
   }
 }
 
 .hero-container {
 }
 
-.hero-title {
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 1.3;
-  color: #1f2937;
-  margin-bottom: 268px;
+.hero-content-wrapper {
+  padding-top: 20px;
+  padding-bottom: 80px;
+  border-radius: 8px;
+  background: url(../img/hero/hero-bg-mob.png),
+    linear-gradient(180deg, #bffffc 0%, #f4f7ff 100%);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: auto;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
 
   @include media(desktop) {
-    font-size: 72px;
-    margin-bottom: 56px;
+    padding-top: 60px;
+    background: url(../img/hero/hero-bg-desk.png),
+      linear-gradient(180deg, #bffffc 0%, #f4f7ff 100%);
+    max-width: 1440px;
   }
 }
 
-.hero-br {
+.hero-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.2;
+  text-align: center;
+  color: #10141d;
+  margin-bottom: 24px;
+
   @include media(desktop) {
-    display: none;
+    font-size: 64px;
   }
 }
 
 .hero-text {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #1f2937;
+  text-align: center;
+  color: #10141d;
+  max-width: 327px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 24px;
 
   @include media(desktop) {
-    font-size: 32px;
-    max-width: 636px;
+    font-size: 18px;
+    max-width: 513px;
     margin-bottom: 64px;
   }
 }
 
 .hero-btn {
-  background: #2563eb;
-  border-radius: 16px;
+  background: #376ffe;
+  border-radius: 24px;
   padding: 12px 24px;
   width: 100%;
-  max-width: 343px;
+  max-width: 256px;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Manrope', sans-serif;
-  font-weight: 600;
-  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
   line-height: 1.5;
-  color: #f9fafb;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,16 +83,12 @@
 
   &:active,
   &:focus {
-    background: #2457c6;
+    background: #10141d;
   }
 
   @include media(desktop) {
-    padding: 16px 24px;
-    max-width: 251px;
-    margin: 0;
-
     &:hover {
-      background: #2457c6;
+      background: #10141d;
     }
   }
 }
