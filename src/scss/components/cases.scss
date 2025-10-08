@@ -1,0 +1,84 @@
+.cases-section {
+  padding-bottom: 80px;
+
+  @include media(desktop) {
+    padding-bottom: 112px;
+  }
+}
+
+.cases-container {
+  @include media(desktop) {
+  }
+}
+
+.cases-title {
+  @include media(desktop) {
+  }
+}
+
+.cases-subtitle {
+  @include media(desktop) {
+  }
+}
+
+.cases-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+}
+
+.cases-list-item {
+  background: #fff;
+  border: 1px solid #2563eb;
+  border-radius: 16px;
+  padding: 15px;
+  width: 100%;
+  max-width: 343px;
+  min-height: 91px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  @include media(desktop) {
+    padding: 23px;
+    gap: 16px;
+    max-width: 306px;
+    min-height: 148px;
+  }
+}
+
+.cases-list-item-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  color: #1f2937;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.cases-list-item-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #1f2937;
+
+  @include media(desktop) {
+    font-size: 16px;
+  }
+}

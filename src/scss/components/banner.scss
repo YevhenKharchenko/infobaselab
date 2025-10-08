@@ -1,0 +1,125 @@
+.cookie-banner-section {
+  backdrop-filter: blur(60px);
+  background: #fff;
+  border-radius: 16px;
+  padding: 16px 20px;
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+  gap: 8px;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: none;
+  z-index: 100;
+  display: none;
+
+  @include media(desktop) {
+    padding: 20px 30px;
+    max-width: 1440px;
+    justify-content: space-between;
+  }
+}
+
+.cookie-banner-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 199px;
+
+  @include media(desktop) {
+    max-width: 511px;
+  }
+}
+
+.cookie-banner-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #1f2937;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.cookie-banner-link {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #1f2937;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #70b2ff;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.cookie-banner-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+  @include media(desktop) {
+    flex-direction: row;
+  }
+}
+
+.cookie-decline-btn {
+  background: rgba(255, 255, 255, 0.01);
+  border: 2px solid #00bfa6;
+  border-radius: 12px;
+  padding: 9px;
+  width: 100%;
+  max-width: 128px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include media(desktop) {
+    padding: 12px 21px;
+    max-width: max-content;
+    font-size: 18px;
+  }
+}
+
+.cookie-accept-btn {
+  background: #00bfa6;
+  border: 1px solid #00bfa6;
+  border-radius: 12px;
+  padding: 9px;
+  width: 100%;
+  max-width: 128px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #f9fafb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include media(desktop) {
+    padding: 12px 21px;
+    max-width: max-content;
+    font-size: 18px;
+  }
+}
+
+.show-cookie-banner {
+  display: flex;
+
+  @include media(desktop) {
+  }
+}
